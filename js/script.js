@@ -77,8 +77,9 @@ clearBtn.addEventListener("click", () => {
     localStorage.removeItem("moods");
     moodHistory = [];
     list.innerHTML = "";
-    body.style.backgroundImage = "url('./images/mood-finder.jpg')";
+    body.style.backgroundImage = "url('https://syedanaqvi9.github.io/mood-tracker/images/mood-finder.png')";
     quote.textContent = "Today's Quote";
+    moodValue.value = "";
     }
 
 })
