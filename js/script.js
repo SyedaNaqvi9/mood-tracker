@@ -30,11 +30,13 @@ let index;
 
 moodValue.addEventListener("change", () => {
         btn.disabled = false;
-
 })
 
 btn.addEventListener("click", () => {
-
+    if(moodValue.value == ""){
+        alert("Please select a mood");
+        btn.style.display = none;
+    }
 
     if(moodValue.value == "Happy"){
         body.style.backgroundImage = "url('https://syedanaqvi9.github.io/mood-tracker/images/happy.png')";
