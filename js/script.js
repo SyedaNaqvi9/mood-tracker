@@ -35,24 +35,24 @@ btn.addEventListener("click", () => {
 
     }
     else if(moodValue.value == "Sad"){
-        body.style.backgroundImage = "url('./images/sad.jpg')";
+        body.style.backgroundImage = "url('https://syedanaqvi9.github.io/mood-tracker/images/sad.jpg')";
         index = Math.floor(Math.random() * sadQuote.length);
         quote.textContent = sadQuote[index];
 
     } else if(moodValue.value == "Angry"){
-        body.style.backgroundImage = "url('./images/angry.jpg')";
+        body.style.backgroundImage = "url('https://syedanaqvi9.github.io/mood-tracker/images/angry.jpg')";
         index = Math.floor(Math.random() * angryQuote.length);
         quote.textContent = angryQuote[index];
 
     }
     else if(moodValue.value == "Tired"){
-        body.style.backgroundImage = "url('./images/tired.jpg')";
+        body.style.backgroundImage = "url('https://syedanaqvi9.github.io/mood-tracker/images/tired.jpg')";
         index = Math.floor(Math.random() * tiredQuote.length);
         quote.textContent = tiredQuote[index];
 
     } 
     else if(moodValue.value == "Excited"){
-        body.style.backgroundImage = "url('./images/excited.jpg')";
+        body.style.backgroundImage = "url('https://syedanaqvi9.github.io/mood-tracker/images/excited.jpg')";
         index = Math.floor(Math.random() * excitedQuote.length);
         quote.textContent = excitedQuote[index];
     } 
