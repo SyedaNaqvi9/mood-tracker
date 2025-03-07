@@ -28,7 +28,7 @@ let index;
 
 btn.addEventListener("click", () => {
     if(moodValue.value == "Happy"){
-        body.style.backgroundImage = "url('./images/happy.jpg')";
+        body.style.backgroundImage = "url('https://syedanaqvi9.github.io/mood-tracker/images/happy.png')";
           
         index = Math.floor(Math.random() * happyQuote.length);
         quote.textContent = happyQuote[index];
