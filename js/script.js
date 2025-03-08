@@ -38,7 +38,7 @@ let index;
 btn.addEventListener("click", () => {
     let mood = moodValue.value;
     if (playlists[mood]) {
-        playlistContainer.innerHTML = `<iframe src="${playlists[mood]}" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>`;
+        playlistContainer.innerHTML = `<iframe src="${playlists[mood]}" width="100%" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>`;
     } else {
         playlistContainer.innerHTML = `<p>No playlist available for this mood.</p>`;
     }
