@@ -24,14 +24,14 @@ button {
     margin-top: 20px;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: #ae59e3;
+    background-color:  #1768AC;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #764c88;
+    background-color: #0a2941;
 }
 
 ul {
@@ -40,12 +40,12 @@ ul {
 }
 
 #moodHistory li{
-    background-color: #764c88;
+    background-color: #1768AC;
     color: white;
 }
 
 p#quote{
-    background-color: #764c88;
+    background-color: #1768AC;
     color: white;
     padding: 15px;
 
@@ -62,7 +62,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #764c88;
+    background-color: #1768AC;
     color: white;
     font-size: 14px;
 }
